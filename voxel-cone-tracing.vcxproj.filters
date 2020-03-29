@@ -13,6 +13,18 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{564c40d3-c18b-4490-b048-f5a2e09303d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Voxel Cone Tracing">
+      <UniqueIdentifier>{93c316ad-869c-4256-b592-7ddb36b339ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Voxelization">
+      <UniqueIdentifier>{b7f14e97-fafd-49bd-828a-9ea0730a84c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Voxelization\Visualization">
+      <UniqueIdentifier>{8614786d-f2c8-425d-af06-f35bb80e6f54}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -188,5 +200,32 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Libraries\AntTweakBar.dll" />
+    <None Include="Shaders\Voxelization\voxelization.frag">
+      <Filter>Shaders\Voxelization</Filter>
+    </None>
+    <None Include="Shaders\Voxelization\voxelization.geom">
+      <Filter>Shaders\Voxelization</Filter>
+    </None>
+    <None Include="Shaders\Voxelization\voxelization.vert">
+      <Filter>Shaders\Voxelization</Filter>
+    </None>
+    <None Include="Shaders\Voxelization\Visualization\voxel_visualization.frag">
+      <Filter>Shaders\Voxelization\Visualization</Filter>
+    </None>
+    <None Include="Shaders\Voxelization\Visualization\voxel_visualization.vert">
+      <Filter>Shaders\Voxelization\Visualization</Filter>
+    </None>
+    <None Include="Shaders\Voxelization\Visualization\world_position.frag">
+      <Filter>Shaders\Voxelization\Visualization</Filter>
+    </None>
+    <None Include="Shaders\Voxelization\Visualization\world_position.vert">
+      <Filter>Shaders\Voxelization\Visualization</Filter>
+    </None>
+    <None Include="Shaders\Voxel Cone Tracing\voxel_cone_tracing.frag">
+      <Filter>Shaders\Voxel Cone Tracing</Filter>
+    </None>
+    <None Include="Shaders\Voxel Cone Tracing\voxel_cone_tracing.vert">
+      <Filter>Shaders\Voxel Cone Tracing</Filter>
+    </None>
   </ItemGroup>
 </Project>

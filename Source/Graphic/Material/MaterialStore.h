@@ -1,7 +1,7 @@
 #pragma once
 
 #include <vector>
-
+#include <string>
 class Material;
 
 /// <summary> Manages all loaded materials and shader programs. </summary>
